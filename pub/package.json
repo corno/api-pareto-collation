@@ -1,0 +1,21 @@
+{
+  "author": "Corno",
+  "description": "collation functions",
+  "files": [
+    "dist"
+  ],
+  "license": "ISC",
+  "main": "dist/index.js",
+  "name": "api-pareto-collation",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/corno/api-pareto-collation.git"
+  },
+  "types": "dist/index.d.ts",
+  "version": "0.1.0",
+  "dependencies": {
+    "pareto-core-types": "^0.2.0"
+  },
+  "interface-fingerprint": "0f98dcd7b4c018cfcdf3b4685c9467f4b7ef74b5",
+  "content-fingerprint": "2d9fb0a88a53b2f6760dba6c829aa8bd754b83fd"
+}
