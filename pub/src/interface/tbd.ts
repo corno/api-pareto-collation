@@ -1,8 +1,7 @@
-import * as pt from "pareto-core-types"
 
-export type IsABeforeB = (
+export type IsYinBeforeYang = (
     $: {
-        a: string,
-        b: string,
+        yin: string,
+        yang: string,
     }
 ) => boolean
