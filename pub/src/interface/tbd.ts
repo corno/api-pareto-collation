@@ -1,6 +1,6 @@
 import * as pt from "pareto-core-types"
 
-export type Sort = (
+export type IsABeforeB = (
     $: {
         a: string,
         b: string,
