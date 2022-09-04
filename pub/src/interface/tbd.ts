@@ -9,7 +9,7 @@ export type FIsYinBeforeYang = (
 
 export type XSortedForEach = <T>(
     $: pt.Dictionary<T>,
-    $i: ($: T) => void
+    $i: ($: T, key: string) => void
 ) => void
 
 
