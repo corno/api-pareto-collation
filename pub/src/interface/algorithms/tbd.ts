@@ -2,8 +2,8 @@ import * as pt from "pareto-core-types"
 
 export type FIsYinBeforeYang = (
     $: {
-        yin: string,
-        yang: string,
+     readonly  "yin": string,
+      readonly  "yang": string,
     }
 ) => boolean
 
