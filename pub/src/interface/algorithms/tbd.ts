@@ -7,14 +7,14 @@ export type FIsYinBeforeYang = (
     }
 ) => boolean
 
-export type XSortedForEach = <T>(
+export type PSortedForEach = <T>(
     $: pt.Dictionary<T>,
     $i: ($: T, key: string) => void
 ) => void
 
 
-export type XCreateSortedForEach = (
+export type FCreateSortedForEach = (
     $d: {
         isYinBeforeYang: FIsYinBeforeYang
     }
-) => XSortedForEach
+) => PSortedForEach
