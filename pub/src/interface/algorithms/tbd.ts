@@ -1,4 +1,5 @@
 import * as pt from "pareto-core-types"
+import { TKeyValuePair } from "../types/types"
 
 export type FIsYinBeforeYang = (
     $: {
@@ -9,10 +10,7 @@ export type FIsYinBeforeYang = (
 
 export type PSortedForEach = <T>(
     $: pt.Dictionary<T>,
-    $i: ($: {
-        readonly "entry": T,
-        readonly "key": string
-    }) => void
+    $i: ($: TKeyValuePair<T>) => void
 ) => void
 
 
