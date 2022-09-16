@@ -1,5 +1,5 @@
 import * as pt from "pareto-core-types"
-import { TKeyValuePair } from "../types/types"
+import { TKeyValuePair } from "../types/types.p"
 
 export type FIsYinBeforeYang = (
     $: {
@@ -16,6 +16,6 @@ export type PSortedForEach = <T>(
 
 export type FCreateSortedForEach = (
     $d: {
-        isYinBeforeYang: FIsYinBeforeYang
+       readonly "isYinBeforeYang": FIsYinBeforeYang
     }
 ) => PSortedForEach

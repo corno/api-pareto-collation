@@ -1,3 +1,3 @@
-export * from "./algorithms/tbd"
+export * from "./algorithms/algorithms.p"
 
-export * from "./types/types"
+export * from "./types/types.p"
